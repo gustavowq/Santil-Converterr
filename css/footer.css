@@ -1,0 +1,11 @@
+footer{
+    width: 100%;
+    background-color: #1A3C40;
+
+    padding: 10px;
+}
+
+footer p{
+    cursor: pointer;
+    font-weight: 600;
+}

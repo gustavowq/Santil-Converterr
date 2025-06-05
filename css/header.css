@@ -1,0 +1,17 @@
+header{
+    background-color:  #1A3C40; 
+    width: 100%;
+    padding: 13px;
+    align-items: center;
+
+    font-size: 0.9em;
+}
+
+header h1{
+    cursor: pointer;
+}
+
+hi{
+    color: #2c1a40
+    ;
+}

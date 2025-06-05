@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Css-->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <title>Santil Converter</title>
+</head>
+<body>
+    <header>
+        <h1>$Santil Converter</h1>
+    </header>
+
+    <main>
+        <form id="form">
+            <section class="imput-container">
+                <div class="form-group">
+                    <label for="">Valor a ser convertido (R$)</label>
+                    <input type="number" id="value-real" placeholder="20R$" name="value-real" max="1000000">
+
+                </div>
+
+                <br>
+
+                <div class="form-group">
+                    <label for="currency">Selecione a moeda</label>
+                    <select id="currency">
+                        <option value="">Selecione..</option>
+                        <option value="Dol">Dolar</option>
+                        <option value="Eur">Euro</option>
+    
+                    </select>
+                    
+    
+                    
+
+                    
+                </div>
+
+            </section>
+
+                                <div class="result">
+                        <h2 id="Resultado"></h2>
+                    </div>    
+
+            <button type="submit">Converter</button>
+
+        </form>
+    </main>
+
+    <footer>
+        <p>
+            &copy 2025 - Todos os direitos reservados
+        </p>   
+    </footer>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
