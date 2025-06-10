@@ -47,7 +47,7 @@ function handlesubmit (e) {
             const cotacao = data[`${moeda}BRL`].bid;  //retorna o valor da meoda em reais
 
             if(moeda === 'USD'){
-                resultado.innerHTML = (valor / cotacao).toFixed(2) + 'US$'    
+                resultado.innerHTML = "resultado = " + (valor / cotacao).toFixed(2) + 'US$'    
             }
             else{
                 resultado.innerHTML = "resultado = " + (valor / cotacao).toFixed(2) + ' €'
